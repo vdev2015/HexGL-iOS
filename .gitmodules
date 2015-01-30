@@ -1,0 +1,6 @@
+[submodule "third-party/HexGL"]
+	path = third-party/HexGL
+	url = git@github.com:jondong/HexGL.git
+[submodule "third-party/crosswalk-ios"]
+	path = third-party/crosswalk-ios
+	url = git@github.com:otcshare/crosswalk-ios.git
