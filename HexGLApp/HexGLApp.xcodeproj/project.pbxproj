@@ -13,7 +13,7 @@
 		AB0B42DF1A7F239200F2ABB2 /* PresentationExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B42DE1A7F239200F2ABB2 /* PresentationExtensionTests.swift */; };
 		AB0B42E21A7F239200F2ABB2 /* PresentationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0B42CB1A7F239200F2ABB2 /* PresentationExtension.framework */; };
 		AB0B42E31A7F239200F2ABB2 /* PresentationExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB0B42CB1A7F239200F2ABB2 /* PresentationExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AB0B42F01A7F240800F2ABB2 /* navigator.presentation.js in Resources */ = {isa = PBXBuildFile; fileRef = AB0B42ED1A7F240800F2ABB2 /* navigator.presentation.js */; };
+		AB0B42F01A7F240800F2ABB2 /* PresentationExtension.js in Resources */ = {isa = PBXBuildFile; fileRef = AB0B42ED1A7F240800F2ABB2 /* PresentationExtension.js */; };
 		AB0B42F11A7F240800F2ABB2 /* PresentationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B42EE1A7F240800F2ABB2 /* PresentationExtension.swift */; };
 		AB0B42F21A7F240800F2ABB2 /* RemoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B42EF1A7F240800F2ABB2 /* RemoteViewController.swift */; };
 		AB0B42F31A7F243D00F2ABB2 /* XWalkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC7AB2C1A7B5F9500865FE3 /* XWalkView.framework */; };
@@ -125,7 +125,7 @@
 		AB0B42D51A7F239200F2ABB2 /* PresentationExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0B42DD1A7F239200F2ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB0B42DE1A7F239200F2ABB2 /* PresentationExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationExtensionTests.swift; sourceTree = "<group>"; };
-		AB0B42ED1A7F240800F2ABB2 /* navigator.presentation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = navigator.presentation.js; sourceTree = "<group>"; };
+		AB0B42ED1A7F240800F2ABB2 /* PresentationExtension.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = PresentationExtension.js; sourceTree = "<group>"; };
 		AB0B42EE1A7F240800F2ABB2 /* PresentationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationExtension.swift; sourceTree = "<group>"; };
 		AB0B42EF1A7F240800F2ABB2 /* RemoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteViewController.swift; sourceTree = "<group>"; };
 		ABC7AAFA1A7B5E5B00865FE3 /* HexGLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexGLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				AB0B42CF1A7F239200F2ABB2 /* PresentationExtension.h */,
-				AB0B42ED1A7F240800F2ABB2 /* navigator.presentation.js */,
+				AB0B42ED1A7F240800F2ABB2 /* PresentationExtension.js */,
 				AB0B42EE1A7F240800F2ABB2 /* PresentationExtension.swift */,
 				AB0B42EF1A7F240800F2ABB2 /* RemoteViewController.swift */,
 				AB0B42CD1A7F239200F2ABB2 /* Supporting Files */,
@@ -458,7 +458,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0B42F01A7F240800F2ABB2 /* navigator.presentation.js in Resources */,
+				AB0B42F01A7F240800F2ABB2 /* PresentationExtension.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
