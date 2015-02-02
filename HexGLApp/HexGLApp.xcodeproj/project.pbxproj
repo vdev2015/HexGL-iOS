@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0B42C51A7F1E6000F2ABB2 /* manifest.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB0B42C41A7F1E6000F2ABB2 /* manifest.plist */; };
+		AB0B42D01A7F239200F2ABB2 /* PresentationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0B42CF1A7F239200F2ABB2 /* PresentationExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB0B42D61A7F239200F2ABB2 /* PresentationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0B42CB1A7F239200F2ABB2 /* PresentationExtension.framework */; };
+		AB0B42DF1A7F239200F2ABB2 /* PresentationExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B42DE1A7F239200F2ABB2 /* PresentationExtensionTests.swift */; };
+		AB0B42E21A7F239200F2ABB2 /* PresentationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0B42CB1A7F239200F2ABB2 /* PresentationExtension.framework */; };
+		AB0B42E31A7F239200F2ABB2 /* PresentationExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB0B42CB1A7F239200F2ABB2 /* PresentationExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB0B42F01A7F240800F2ABB2 /* navigator.presentation.js in Resources */ = {isa = PBXBuildFile; fileRef = AB0B42ED1A7F240800F2ABB2 /* navigator.presentation.js */; };
+		AB0B42F11A7F240800F2ABB2 /* PresentationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B42EE1A7F240800F2ABB2 /* PresentationExtension.swift */; };
+		AB0B42F21A7F240800F2ABB2 /* RemoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0B42EF1A7F240800F2ABB2 /* RemoteViewController.swift */; };
+		AB0B42F31A7F243D00F2ABB2 /* XWalkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC7AB2C1A7B5F9500865FE3 /* XWalkView.framework */; };
 		ABC7AB071A7B5E5B00865FE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC7AB061A7B5E5B00865FE3 /* Images.xcassets */; };
 		ABC7AB161A7B5E5B00865FE3 /* HexGLAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7AB151A7B5E5B00865FE3 /* HexGLAppTests.swift */; };
 		ABC7AB211A7B5EA600865FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7AB1F1A7B5EA600865FE3 /* AppDelegate.swift */; };
@@ -26,9 +36,6 @@
 		ABC7AB521A7B622E00865FE3 /* icon_256.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC7AB3D1A7B622E00865FE3 /* icon_256.png */; };
 		ABC7AB531A7B622E00865FE3 /* index.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC7AB3E1A7B622E00865FE3 /* index.html */; };
 		ABC7AB541A7B622E00865FE3 /* libs in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC7AB3F1A7B622E00865FE3 /* libs */; };
-		ABC7AB551A7B622E00865FE3 /* manifest.webapp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC7AB401A7B622E00865FE3 /* manifest.webapp */; };
-		ABC7AB561A7B622E00865FE3 /* package.webapp in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC7AB411A7B622E00865FE3 /* package.webapp */; };
-		ABC7AB571A7B622E00865FE3 /* package.zip in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC7AB421A7B622E00865FE3 /* package.zip */; };
 		ABC7AB581A7B622E00865FE3 /* README.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC7AB431A7B622E00865FE3 /* README.md */; };
 		ABC7AB591A7B622E00865FE3 /* remoteView.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC7AB441A7B622E00865FE3 /* remoteView.html */; };
 		ABC7AB5A1A7B622E00865FE3 /* replays in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC7AB451A7B622E00865FE3 /* replays */; };
@@ -38,6 +45,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AB0B42D71A7F239200F2ABB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC7AAF21A7B5E5B00865FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0B42CA1A7F239200F2ABB2;
+			remoteInfo = PresentationExtension;
+		};
+		AB0B42D91A7F239200F2ABB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC7AAF21A7B5E5B00865FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC7AAF91A7B5E5B00865FE3;
+			remoteInfo = HexGLApp;
+		};
+		AB0B42E01A7F239200F2ABB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC7AAF21A7B5E5B00865FE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0B42CA1A7F239200F2ABB2;
+			remoteInfo = PresentationExtension;
+		};
 		ABC7AB101A7B5E5B00865FE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABC7AAF21A7B5E5B00865FE3 /* Project object */;
@@ -54,6 +82,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AB0B42E31A7F239200F2ABB2 /* PresentationExtension.framework in Embed Frameworks */,
 				ABC7AB2F1A7B5FEE00865FE3 /* XWalkView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -77,9 +106,6 @@
 				ABC7AB521A7B622E00865FE3 /* icon_256.png in CopyFiles */,
 				ABC7AB531A7B622E00865FE3 /* index.html in CopyFiles */,
 				ABC7AB541A7B622E00865FE3 /* libs in CopyFiles */,
-				ABC7AB551A7B622E00865FE3 /* manifest.webapp in CopyFiles */,
-				ABC7AB561A7B622E00865FE3 /* package.webapp in CopyFiles */,
-				ABC7AB571A7B622E00865FE3 /* package.zip in CopyFiles */,
 				ABC7AB581A7B622E00865FE3 /* README.md in CopyFiles */,
 				ABC7AB591A7B622E00865FE3 /* remoteView.html in CopyFiles */,
 				ABC7AB5A1A7B622E00865FE3 /* replays in CopyFiles */,
@@ -92,6 +118,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB0B42C41A7F1E6000F2ABB2 /* manifest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = manifest.plist; sourceTree = "<group>"; };
+		AB0B42CB1A7F239200F2ABB2 /* PresentationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PresentationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0B42CE1A7F239200F2ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0B42CF1A7F239200F2ABB2 /* PresentationExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentationExtension.h; sourceTree = "<group>"; };
+		AB0B42D51A7F239200F2ABB2 /* PresentationExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0B42DD1A7F239200F2ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0B42DE1A7F239200F2ABB2 /* PresentationExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationExtensionTests.swift; sourceTree = "<group>"; };
+		AB0B42ED1A7F240800F2ABB2 /* navigator.presentation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = navigator.presentation.js; sourceTree = "<group>"; };
+		AB0B42EE1A7F240800F2ABB2 /* PresentationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationExtension.swift; sourceTree = "<group>"; };
+		AB0B42EF1A7F240800F2ABB2 /* RemoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteViewController.swift; sourceTree = "<group>"; };
 		ABC7AAFA1A7B5E5B00865FE3 /* HexGLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexGLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC7AAFE1A7B5E5B00865FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABC7AB061A7B5E5B00865FE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,9 +150,6 @@
 		ABC7AB3D1A7B622E00865FE3 /* icon_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_256.png; path = "../third-party/HexGL/icon_256.png"; sourceTree = "<group>"; };
 		ABC7AB3E1A7B622E00865FE3 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = "../third-party/HexGL/index.html"; sourceTree = "<group>"; };
 		ABC7AB3F1A7B622E00865FE3 /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libs; path = "../third-party/HexGL/libs"; sourceTree = "<group>"; };
-		ABC7AB401A7B622E00865FE3 /* manifest.webapp */ = {isa = PBXFileReference; lastKnownFileType = text; name = manifest.webapp; path = "../third-party/HexGL/manifest.webapp"; sourceTree = "<group>"; };
-		ABC7AB411A7B622E00865FE3 /* package.webapp */ = {isa = PBXFileReference; lastKnownFileType = text; name = package.webapp; path = "../third-party/HexGL/package.webapp"; sourceTree = "<group>"; };
-		ABC7AB421A7B622E00865FE3 /* package.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = package.zip; path = "../third-party/HexGL/package.zip"; sourceTree = "<group>"; };
 		ABC7AB431A7B622E00865FE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../third-party/HexGL/README.md"; sourceTree = "<group>"; };
 		ABC7AB441A7B622E00865FE3 /* remoteView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = remoteView.html; path = "../third-party/HexGL/remoteView.html"; sourceTree = "<group>"; };
 		ABC7AB451A7B622E00865FE3 /* replays */ = {isa = PBXFileReference; lastKnownFileType = folder; name = replays; path = "../third-party/HexGL/replays"; sourceTree = "<group>"; };
@@ -126,10 +159,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AB0B42C71A7F239200F2ABB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B42F31A7F243D00F2ABB2 /* XWalkView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0B42D21A7F239200F2ABB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B42D61A7F239200F2ABB2 /* PresentationExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC7AAF71A7B5E5B00865FE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0B42E21A7F239200F2ABB2 /* PresentationExtension.framework in Frameworks */,
 				ABC7AB2E1A7B5FEE00865FE3 /* XWalkView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,13 +194,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB0B42CC1A7F239200F2ABB2 /* PresentationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B42CF1A7F239200F2ABB2 /* PresentationExtension.h */,
+				AB0B42ED1A7F240800F2ABB2 /* navigator.presentation.js */,
+				AB0B42EE1A7F240800F2ABB2 /* PresentationExtension.swift */,
+				AB0B42EF1A7F240800F2ABB2 /* RemoteViewController.swift */,
+				AB0B42CD1A7F239200F2ABB2 /* Supporting Files */,
+			);
+			path = PresentationExtension;
+			sourceTree = "<group>";
+		};
+		AB0B42CD1A7F239200F2ABB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B42CE1A7F239200F2ABB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB0B42DB1A7F239200F2ABB2 /* PresentationExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B42DE1A7F239200F2ABB2 /* PresentationExtensionTests.swift */,
+				AB0B42DC1A7F239200F2ABB2 /* Supporting Files */,
+			);
+			path = PresentationExtensionTests;
+			sourceTree = "<group>";
+		};
+		AB0B42DC1A7F239200F2ABB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B42DD1A7F239200F2ABB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		ABC7AAF11A7B5E5B00865FE3 = {
 			isa = PBXGroup;
 			children = (
+				AB0B42C41A7F1E6000F2ABB2 /* manifest.plist */,
 				ABC7AB5E1A7B625B00865FE3 /* Resources */,
 				ABC7AB2C1A7B5F9500865FE3 /* XWalkView.framework */,
 				ABC7AAFC1A7B5E5B00865FE3 /* HexGLApp */,
 				ABC7AB121A7B5E5B00865FE3 /* HexGLAppTests */,
+				AB0B42CC1A7F239200F2ABB2 /* PresentationExtension */,
+				AB0B42DB1A7F239200F2ABB2 /* PresentationExtensionTests */,
 				ABC7AAFB1A7B5E5B00865FE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -160,6 +250,8 @@
 			children = (
 				ABC7AAFA1A7B5E5B00865FE3 /* HexGLApp.app */,
 				ABC7AB0F1A7B5E5B00865FE3 /* HexGLAppTests.xctest */,
+				AB0B42CB1A7F239200F2ABB2 /* PresentationExtension.framework */,
+				AB0B42D51A7F239200F2ABB2 /* PresentationExtensionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,9 +308,6 @@
 				ABC7AB3D1A7B622E00865FE3 /* icon_256.png */,
 				ABC7AB3E1A7B622E00865FE3 /* index.html */,
 				ABC7AB3F1A7B622E00865FE3 /* libs */,
-				ABC7AB401A7B622E00865FE3 /* manifest.webapp */,
-				ABC7AB411A7B622E00865FE3 /* package.webapp */,
-				ABC7AB421A7B622E00865FE3 /* package.zip */,
 				ABC7AB431A7B622E00865FE3 /* README.md */,
 				ABC7AB441A7B622E00865FE3 /* remoteView.html */,
 				ABC7AB451A7B622E00865FE3 /* replays */,
@@ -231,7 +320,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AB0B42C81A7F239200F2ABB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B42D01A7F239200F2ABB2 /* PresentationExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		AB0B42CA1A7F239200F2ABB2 /* PresentationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0B42E41A7F239200F2ABB2 /* Build configuration list for PBXNativeTarget "PresentationExtension" */;
+			buildPhases = (
+				AB0B42C61A7F239200F2ABB2 /* Sources */,
+				AB0B42C71A7F239200F2ABB2 /* Frameworks */,
+				AB0B42C81A7F239200F2ABB2 /* Headers */,
+				AB0B42C91A7F239200F2ABB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresentationExtension;
+			productName = PresentationExtension;
+			productReference = AB0B42CB1A7F239200F2ABB2 /* PresentationExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB0B42D41A7F239200F2ABB2 /* PresentationExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0B42E71A7F239200F2ABB2 /* Build configuration list for PBXNativeTarget "PresentationExtensionTests" */;
+			buildPhases = (
+				AB0B42D11A7F239200F2ABB2 /* Sources */,
+				AB0B42D21A7F239200F2ABB2 /* Frameworks */,
+				AB0B42D31A7F239200F2ABB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB0B42D81A7F239200F2ABB2 /* PBXTargetDependency */,
+				AB0B42DA1A7F239200F2ABB2 /* PBXTargetDependency */,
+			);
+			name = PresentationExtensionTests;
+			productName = PresentationExtensionTests;
+			productReference = AB0B42D51A7F239200F2ABB2 /* PresentationExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		ABC7AAF91A7B5E5B00865FE3 /* HexGLApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABC7AB191A7B5E5B00865FE3 /* Build configuration list for PBXNativeTarget "HexGLApp" */;
@@ -245,6 +382,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				AB0B42E11A7F239200F2ABB2 /* PBXTargetDependency */,
 			);
 			name = HexGLApp;
 			productName = HexGLApp;
@@ -278,6 +416,13 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Crosswalk;
 				TargetAttributes = {
+					AB0B42CA1A7F239200F2ABB2 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					AB0B42D41A7F239200F2ABB2 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ABC7AAF91A7B5E5B00865FE3;
+					};
 					ABC7AAF91A7B5E5B00865FE3 = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -302,17 +447,35 @@
 			targets = (
 				ABC7AAF91A7B5E5B00865FE3 /* HexGLApp */,
 				ABC7AB0E1A7B5E5B00865FE3 /* HexGLAppTests */,
+				AB0B42CA1A7F239200F2ABB2 /* PresentationExtension */,
+				AB0B42D41A7F239200F2ABB2 /* PresentationExtensionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AB0B42C91A7F239200F2ABB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B42F01A7F240800F2ABB2 /* navigator.presentation.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0B42D31A7F239200F2ABB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC7AAF81A7B5E5B00865FE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ABC7AB251A7B5EB700865FE3 /* Main.storyboard in Resources */,
 				ABC7AB071A7B5E5B00865FE3 /* Images.xcassets in Resources */,
+				AB0B42C51A7F1E6000F2ABB2 /* manifest.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +489,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AB0B42C61A7F239200F2ABB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B42F21A7F240800F2ABB2 /* RemoteViewController.swift in Sources */,
+				AB0B42F11A7F240800F2ABB2 /* PresentationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0B42D11A7F239200F2ABB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B42DF1A7F239200F2ABB2 /* PresentationExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC7AAF61A7B5E5B00865FE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +526,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AB0B42D81A7F239200F2ABB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB0B42CA1A7F239200F2ABB2 /* PresentationExtension */;
+			targetProxy = AB0B42D71A7F239200F2ABB2 /* PBXContainerItemProxy */;
+		};
+		AB0B42DA1A7F239200F2ABB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC7AAF91A7B5E5B00865FE3 /* HexGLApp */;
+			targetProxy = AB0B42D91A7F239200F2ABB2 /* PBXContainerItemProxy */;
+		};
+		AB0B42E11A7F239200F2ABB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB0B42CA1A7F239200F2ABB2 /* PresentationExtension */;
+			targetProxy = AB0B42E01A7F239200F2ABB2 /* PBXContainerItemProxy */;
+		};
 		ABC7AB111A7B5E5B00865FE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABC7AAF91A7B5E5B00865FE3 /* HexGLApp */;
@@ -365,6 +560,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AB0B42E51A7F239200F2ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jonathan/projects/HexGL-iOS/Build/Products/Debug-iphoneos",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PresentationExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB0B42E61A7F239200F2ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jonathan/projects/HexGL-iOS/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = PresentationExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB0B42E81A7F239200F2ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PresentationExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexGLApp.app/HexGLApp";
+			};
+			name = Debug;
+		};
+		AB0B42E91A7F239200F2ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PresentationExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexGLApp.app/HexGLApp";
+			};
+			name = Release;
+		};
 		ABC7AB171A7B5E5B00865FE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -503,6 +778,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AB0B42E41A7F239200F2ABB2 /* Build configuration list for PBXNativeTarget "PresentationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0B42E51A7F239200F2ABB2 /* Debug */,
+				AB0B42E61A7F239200F2ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB0B42E71A7F239200F2ABB2 /* Build configuration list for PBXNativeTarget "PresentationExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0B42E81A7F239200F2ABB2 /* Debug */,
+				AB0B42E91A7F239200F2ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		ABC7AAF51A7B5E5B00865FE3 /* Build configuration list for PBXProject "HexGLApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -5,7 +5,7 @@
 import UIKit
 import XCTest
 
-class HexGLAppTests: XCTestCase {
+class PresentationExtensionTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
