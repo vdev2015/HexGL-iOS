@@ -7,11 +7,7 @@ HexGL Demo on iOS Based on Crosswalk for iOS
 
   ```sh
   cd HexGL-iOS
-  git submodule init
-  git submodule update
-  cd third-party/crosswalk-ios
-  git submodule init
-  git submodule update
+  git submodule update --init --recursive
   ```
 
 3. Open `HexGL.xcworkspace`, build and run target `HexGLApp`. Enjoy.
